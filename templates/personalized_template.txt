@@ -1,0 +1,29 @@
+Subject: {{ personalized_subject }}
+
+Hi {{ name }},
+
+I've been following your work at {{ business_name }} and I'm particularly impressed with your approach to {{ industry }}.
+
+{% if current_video_state %}
+I noticed your current video content and wanted to share some thoughts on how it could be enhanced:
+
+{{ personalized_analysis }}
+{% else %}
+I noticed you might not have much video content yet, and I wanted to share how video could benefit your business:
+
+{{ personalized_value_proposition }}
+{% endif %}
+
+Our {{ primary_service }} service is designed specifically for {{ industry }} professionals like you who want to:
+{% for benefit in benefits %}
+- {{ benefit }}
+{% endfor %}
+
+{{ personalized_pitch }}
+
+I'd love to discuss this further. Would you be available for a quick call this week?
+
+Best regards,
+{{ sender_name }}
+{{ sender_title }}
+{{ sender_contact }} 

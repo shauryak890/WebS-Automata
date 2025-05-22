@@ -1,0 +1,22 @@
+# API Keys
+OPENAI_API_KEY=your_openai_api_key_here
+SERPAPI_API_KEY=your_serpapi_key_here
+
+# LLM Configuration
+USE_LOCAL_LLM=true
+OLLAMA_BASE_URL=http://localhost:11434
+LM_STUDIO_BASE_URL=http://localhost:1234/v1
+
+# Service Configuration
+SERVICE_TYPE=web_development  # Change to your service type (e.g., web_development, marketing, design)
+
+# Search Configuration
+SEARCH_METHOD=direct  # Options: serpapi, google_profile, direct
+GOOGLE_PROFILE_PATH=C:/Users/YourUsername/AppData/Local/Google/Chrome/User Data  # Path to your Chrome profile
+
+# Email Configuration
+SENDER_NAME=Your Name
+SENDER_TITLE=Professional Service Provider
+SENDER_EMAIL=your@email.com
+SENDER_PHONE=(123) 456-7890
+SENDER_CONTACT=your@email.com | (123) 456-7890 

@@ -1,0 +1,26 @@
+Subject: Elevate Your {{ industry }} Videos with Professional Editing
+
+Hi {{ name }},
+
+I noticed your {{ platform }} account and website, and I'm impressed with your work in the {{ industry }} industry. 
+
+{% if current_video_state %}
+Based on your current videos, I see some opportunities to enhance your content:
+{% for opportunity in opportunities %}
+- {{ opportunity }}
+{% endfor %}
+{% endif %}
+
+Our {{ primary_service }} service could help you:
+{% for benefit in benefits %}
+- {{ benefit }}
+{% endfor %}
+
+I'd love to discuss how we could work together to elevate your video content.
+
+Would you be available for a quick 15-minute call this week?
+
+Best regards,
+{{ sender_name }}
+{{ sender_title }}
+{{ sender_contact }} 
