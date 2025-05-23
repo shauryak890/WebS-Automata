@@ -1,4 +1,4 @@
-# WebScraper-Automated Mailer
+# WebScraper-Automated Mailer(Using Lang-Chain and SMTP)
 
 An automated lead generation and personalized email outreach service powered by LangChain and LLMs. This tool helps freelancers and service providers find potential clients, analyze their needs, and create personalized outreach emails.
 
